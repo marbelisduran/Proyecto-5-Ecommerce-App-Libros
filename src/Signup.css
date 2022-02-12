@@ -1,0 +1,9 @@
+.new-item-panel{
+  width: 300px;
+  margin: 20px auto;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+.new-item-panel p{
+  padding: 5px 0;
+}

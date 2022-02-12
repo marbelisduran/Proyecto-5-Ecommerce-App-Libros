@@ -1,0 +1,174 @@
+.container{
+  background-color: rgb(19, 42, 71);
+  color: black;
+  border-bottom: solid 1px whitesmoke;
+  padding: 10px;
+  margin: 0 auto;
+}
+.container .subcontainer{
+  width: 1000px;
+  margin: 0 auto;
+}
+.container .subcontainer div{
+  display: inline-block;
+  vertical-align: middle;
+}
+.logo a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 22px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.search{
+  width: 500px;
+}
+
+.search input{
+  width: calc(500px - 20px - 10px);
+  padding: 10px;
+  font-size: 16px;
+}
+
+.actions a{
+  color: white;
+  margin: auto 10px;
+  text-decoration: none;
+  border: 1px solid black;
+  padding:10px 20px;
+  background-color:rgba(65, 65, 148, 0.603);
+  border-radius: 20px;
+}
+
+.actions ul, .actions ul li{
+  margin: 0;
+  list-style: none;
+}
+.actions ul li a{
+  display: inline;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 780px) {
+
+  .container{
+    background-color: rgb(19, 42, 71);
+    color: black;
+    border-bottom: solid 1px whitesmoke;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .container .subcontainer{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container .subcontainer div{
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .logo a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 15px;
+    width: 70px;
+    margin-right: 7px;
+  }
+
+ 
+
+  .search{
+    width: 300px;
+  }
+
+  .search input{
+    width: calc(300px - 15px - 7px);
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .actions a{
+    color: white;
+    margin: auto 7px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding:7px 15px;
+    background-color:rgba(65, 65, 148, 0.603);
+    border-radius: 15px;
+  }
+
+  .actions ul, .actions ul li{
+    margin: 0;
+    list-style: none;
+  }
+
+  .actions ul li a{
+    display: inline;
+    padding: 7px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .container{
+    background-color: rgb(19, 42, 71);
+    color: black;
+    border-bottom: solid 1px whitesmoke;
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .container .subcontainer{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container .subcontainer div{
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .logo a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 10px;
+    width: 40px;
+    margin-right: 4px;
+  }
+  .search{
+    width: 180px;
+  }
+
+  .search input{
+    width: calc(180px - 12px - 4px);
+    padding: 4px;
+    font-size: 12px;
+  }
+
+  .actions a{
+    color: white;
+    margin: auto 4px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding:4px 10px;
+    background-color:rgba(65, 65, 148, 0.603);
+    border-radius: 10px;
+  }
+
+  .actions ul, .actions ul li{
+    margin: 0;
+    list-style: none;
+  }
+
+  .actions ul li a{
+    display: inline;
+    padding: 4px;
+  }
+
+}
